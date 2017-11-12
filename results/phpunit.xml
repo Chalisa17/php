@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="test_cal" file="C:\AppServ\www\Jenkins\test_cal.php" tests="4" assertions="4" errors="0" failures="2" skipped="0" time="0.000408">
+    <testsuite name="test_cal::testAdd" tests="4" assertions="4" errors="0" failures="2" skipped="0" time="0.000408">
+      <testcase name="testAdd with data set &quot;0+0=0&quot;" class="test_cal" classname="test_cal" file="C:\AppServ\www\Jenkins\test_cal.php" line="9" assertions="1" time="0.000186"/>
+      <testcase name="testAdd with data set &quot;0+1=1&quot;" class="test_cal" classname="test_cal" file="C:\AppServ\www\Jenkins\test_cal.php" line="9" assertions="1" time="0.000037"/>
+      <testcase name="testAdd with data set &quot;1+0=0&quot;" class="test_cal" classname="test_cal" file="C:\AppServ\www\Jenkins\test_cal.php" line="9" assertions="1" time="0.000112">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">test_cal::testAdd with data set "1+0=0" (1, 0, 0)
+Failed asserting that 1 matches expected 0.
+
+C:\AppServ\www\Jenkins\test_cal.php:10
+</failure>
+      </testcase>
+      <testcase name="testAdd with data set &quot;1+4=3&quot;" class="test_cal" classname="test_cal" file="C:\AppServ\www\Jenkins\test_cal.php" line="9" assertions="1" time="0.000073">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">test_cal::testAdd with data set "1+4=3" (1, 4, 3)
+Failed asserting that 5 matches expected 3.
+
+C:\AppServ\www\Jenkins\test_cal.php:10
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
